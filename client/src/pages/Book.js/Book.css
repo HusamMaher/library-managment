@@ -1,0 +1,34 @@
+.searchBar {
+	max-width: 400px;
+	margin: 0 auto;
+	border: none;
+}
+
+.searchInput {
+	border-radius: 15px;
+}
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+.radio-btn-container {
+	display: flex;
+}
+
+.radio-btn {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 15px;
+	background: rgb(184, 192, 184);
+}
+.radio-btn:hover {
+	margin: 11px;
+	padding: 10px;
+	border-radius: 15px;
+	background: rgb(109, 175, 11);
+}
+.searchCriteria {
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+}

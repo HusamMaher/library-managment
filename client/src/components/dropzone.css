@@ -1,0 +1,11 @@
+.dropzone-container {
+	margin: 0 auto;
+	width: 90vh;
+}
+.dropzone {
+	margin: 0 auto;
+}
+.send-btn {
+	max-width: 100px;
+	margin: 0 1.6rem;
+}

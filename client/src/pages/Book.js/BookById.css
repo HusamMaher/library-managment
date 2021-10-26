@@ -1,0 +1,15 @@
+.bookContainer {
+	margin-bottom: 20px;
+}
+.divDisplay {
+	display: inline-flex;
+	margin-bottom: 5px;
+}
+.header-title {
+	font-size: 50px;
+	text-align: center;
+}
+
+.inputTitle {
+	color: red;
+}
