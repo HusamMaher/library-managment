@@ -1,14 +1,9 @@
 const { Sequelize } = require("sequelize");
 
-const sequelize = new Sequelize(
-	"epiz_30174337_XXX",
-	"epiz_30174337",
-	"TFNK9aMzumo6Cc",
-	{
-		host: "sql104.epizy.com",
-		dialect: "mysql",
-		logging: false,
-	},
-);
+const sequelize = new Sequelize(process.env.DATABASE||"xls", process.env.USERNAME||"root",process.env.PASSWORD|| "root", {
+	host: process.env.DBHOST||"localhost",
+	dialect: process.env.DIALECT||"mysql",
+	logging: false,
+});
 
 module.exports = sequelize;
