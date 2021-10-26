@@ -1,5 +1,5 @@
 const Book = require("../models/books");
-const { Op } = require("Sequelize");
+const { Op } = require("sequelize");
 const getAllBooks = async (req, res) => {
 	try {
 		const books = await Book.findAll();
